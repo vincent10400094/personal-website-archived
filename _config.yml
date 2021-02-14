@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -17,25 +17,25 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
     archived: false
     forks: true
     projects:
     # - repo-name
 
-# social_media:
-  # behance: your_username
+social_media:
+  behance: paintartli0007
   # dribbble: your_username
-  # facebook: your_username
+  facebook: vincent.infor
   # hackerrank: your_username
-  # instagram: your_username
+  instagram: vincent.infor
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: 義閔-林-7a8b371b9
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -46,13 +46,13 @@ projects:
   # website: http://your_website_url
   # youtube: your_username
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+# topics:
+  # - name: Compiler
+    # web_url: https://github.com/topics/compiler
+    # image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  # - name: Web design
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  # - name: Data visualization
+  #   web_url: https://github.com/topics/data-visualization
+    # image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
